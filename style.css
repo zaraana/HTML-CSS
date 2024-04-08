@@ -1,3 +1,8 @@
+body{
+    max-width: 90%;
+    
+}
+
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-size-adjust: 16px;
@@ -11,10 +16,10 @@ a{
     transition: color 0.3s; 
 }
 a:visited {
-    color: #6610f2; 
+    color: #bd3e88; 
 }
 
 a:hover {
-    color: #0056b3; 
+    color: #6b0248; 
     text-decoration: underline; 
 }

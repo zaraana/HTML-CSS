@@ -1,14 +1,29 @@
 body{
     max-width: 90%;
-    
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #b6b2b2, #e66363); 
+    background-image: url(img/grande-falaise-plage-pfeiffer-aux-usa-pendant-coucher-du-soleil.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+    background-size: cover; 
+}
+header > h1{
+    background-color: yellow;
+    font-size: 50px;
 }
 
+h2{
+    font-size: 35px;
+}
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-size-adjust: 16px;
     color: #333;
     line-height: 1.5;
+    font-size: 24px;
+}
 
+p, ul, li, table{
+    font-size: 24px;
 }
 a{
     color: #007bff; 
@@ -22,4 +37,59 @@ a:visited {
 a:hover {
     color: #6b0248; 
     text-decoration: underline; 
+}
+
+blockquote, q{
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #424242;
+    border-left: 3px solid firebrick;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+blockquote p {
+    
+    margin-left: 30px;
+    margin-right: 30px; 
+    font-size: 24px;
+}
+    
+.villagers {
+    border-color: rgb(86, 87, 87);
+}
+
+.farmer{
+    border-color: #fffdfd;
+}
+
+.good {
+color: green;
+}
+
+.bad {
+    color: red;
+}
+strong {
+    text-transform: capitalize;   
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+footer{
+    font-size: 24px;
+}
+
+caption{
+    font-size: 24px;
+}
+
+img{
+    padding-right: 50px;
 }
